@@ -21,8 +21,13 @@ export const Footer = () => {
 	}
 
 	return (
-		<div className="flex items-center gap-4">
-			<button className="bg-[#010409] px-4 py-2 rounded-md text-white flex items-center gap-2">
+		<div className="flex items-center gap-4 md:flex-row flex-col">
+			<a
+				className="bg-[#010409] px-4 py-2 rounded-md text-white flex items-center gap-2"
+				href="https://github.com/themashcodee/jackpot-counter-animation"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 24 24"
@@ -34,7 +39,7 @@ export const Footer = () => {
 					></path>
 				</svg>
 				<span>View above counter code</span>
-			</button>
+			</a>
 			<button
 				className="flex items-center gap-2 px-4 py-2 rounded-md text-white bg-[#4444FF]"
 				onClick={() => {

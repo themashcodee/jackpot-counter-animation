@@ -61,6 +61,7 @@ export default function Page() {
 
 					<div className="flex justify-between items-center gap-2">
 						<select
+							value={speed}
 							className="px-2 py-1 rounded"
 							onChange={(e) => {
 								setSpeed(parseInt(e.target.value))
